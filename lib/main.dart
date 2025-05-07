@@ -26,6 +26,8 @@ void main() {
         seedColor: const Color.fromARGB(255, 84, 3, 223),
       ),
       useMaterial3: false,
+      fontFamily: 'Lato',
+      // fontFamily:
     ),
     debugShowCheckedModeBanner: false,
   );
