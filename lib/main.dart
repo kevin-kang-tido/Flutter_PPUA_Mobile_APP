@@ -4,17 +4,21 @@ import 'package:flutter/material.dart';
 
 void main() {
 
-  // Control level
-  final control = ElevatedButton(onPressed: (){}, child: Icon(Icons.check));
+  // // Control level
+  // final control = ElevatedButton(onPressed: (){}, child: Icon(Icons.check));
+  //
+  // // Layout level
+  // final layout = Align(
+  //   alignment: Alignment.bottomRight,
+  //   child: Padding(
+  //     padding: EdgeInsets.all(20),
+  //     child: control,
+  //   ),
+  // );
 
-  // Layout level
-  final layout = Align(
-    alignment: Alignment.bottomRight,
-    child: Padding(
-      padding: EdgeInsets.all(20),
-      child: control,
-    ),
-  );
+
+  // handle the
+  WidgetsFlutterBinding.ensureInitialized();
 
   final screen = MainScreen();
 

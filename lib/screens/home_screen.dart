@@ -161,7 +161,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-
   Widget _categorySection(String title, List<String> images) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,

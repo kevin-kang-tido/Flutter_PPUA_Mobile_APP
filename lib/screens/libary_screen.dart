@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
 
 
 class LibaryScreen extends StatefulWidget {
@@ -9,13 +11,18 @@ class LibaryScreen extends StatefulWidget {
 }
 
 class _LibaryScreenState extends State<LibaryScreen> {
+
+
+  // load data
+  String apiURl = "https://fakestoreapi.com/products";
+
+
+
+
   @override
   Widget build(BuildContext context) {
      return Scaffold(
-        body: Center(
-          child: Text("this is Libary page!"),
-        )
-      // Text("Hello , This is Faculty the king!"),
-    );
+        appBar: AppBar(title: const Text("News"),),
+        );
   }
 }

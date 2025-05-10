@@ -41,7 +41,7 @@ class _FacultyScreenState extends State<FacultyScreen> {
                 children: [
                   CircularProgressIndicator(),
                   SizedBox(height: 16),
-                  Text("Loading faculty data..."),
+                  Text("Loading data..."),
                 ],
               ),
             );
